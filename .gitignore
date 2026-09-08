@@ -1,0 +1,36 @@
+# ==== 绝不上传的私有数据(这是安全底线,别删)====
+# 运行时生成的记忆/状态/日志——全是真实聊天,涉及第三方隐私
+memory.json
+pointer.json
+gags.json
+todos.json
+seen.json
+decisions.jsonl
+bot.log
+bot.err.log
+watchdog.log
+ask_owner.log
+health.json
+watchdog_state.json
+title_hash.json
+asked.json
+img_quota.json
+key_alias.json
+
+# 你的真实人设/身份/人脉/语料(照 *.example.md 自己写,写好去掉 .example)
+persona.md
+about_me.md
+people.md
+voice.md
+no_reply.txt
+fun_groups.txt
+
+# 密钥(永远放 ~/.config/,不进仓库)
+*.env
+.env
+samples_precheck/
+
+# 杂项
+__pycache__/
+*.pyc
+.DS_Store
