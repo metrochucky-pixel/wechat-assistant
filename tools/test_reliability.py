@@ -94,7 +94,7 @@ class Reliability(unittest.TestCase):
     def test_model_title_mismatch_stops_send(self):
         self.d['conversation']='另一个完全不同群'
         self.run_conversation()
-        bot.send_reply.assert_not_called(); bot.set_pointer.assert_not_called(); 
+        bot.send_reply.assert_not_called(); bot.set_pointer.assert_not_called();
         with self.q.connect() as db: self.assertEqual(db.execute('SELECT count(*) FROM observations').fetchone()[0],1)
 
     def test_failed_send_preserves_pending_and_pointer(self):
