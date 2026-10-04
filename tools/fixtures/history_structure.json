@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "scope": "只保留消息顺序、重复关系、发送者区分和显式提及标记；不含原文，不评估模型语义判断。",
+  "cases": [
+    {
+      "conversation": "历史会话001",
+      "messages": [
+        {
+          "certain": false,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "",
+          "text": "脱敏消息编号0001，保留顺序与重复关系"
+        },
+        {
+          "certain": false,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "",
+          "text": "脱敏消息编号0002，保留顺序与重复关系"
+        },
+        {
+          "certain": false,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "",
+          "text": "脱敏消息编号0003，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员002",
+          "text": "脱敏消息编号0004，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员003",
+          "text": "脱敏消息编号0005，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员002",
+          "text": "脱敏消息编号0006，保留顺序与重复关系"
+        },
+        {
+          "certain": false,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "",
+          "text": "脱敏消息编号0007，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员004",
+          "text": "脱敏消息编号0008，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员004",
+          "text": "脱敏消息编号0009，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员005",
+          "text": "脱敏消息编号0010，保留顺序与重复关系"
+        }
+      ]
+    },
+    {
+      "conversation": "历史会话002",
+      "messages": [
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员001",
+          "text": "脱敏消息编号0001，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员002",
+          "text": "脱敏消息编号0002，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员003",
+          "text": "脱敏消息编号0003，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员004",
+          "text": "脱敏消息编号0004，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员001",
+          "text": "脱敏消息编号0005，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员001",
+          "text": "脱敏消息编号0006，保留顺序与重复关系"
+        }
+      ]
+    },
+    {
+      "conversation": "历史会话003",
+      "messages": [
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员001",
+          "text": "脱敏消息编号0001，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员001",
+          "text": "脱敏消息编号0002，保留顺序与重复关系"
+        }
+      ]
+    },
+    {
+      "conversation": "历史会话004",
+      "messages": [
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员001",
+          "text": "脱敏消息编号0001，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员002",
+          "text": "脱敏消息编号0002，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员001",
+          "text": "脱敏消息编号0003，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员002",
+          "text": "脱敏消息编号0004，保留顺序与重复关系"
+        }
+      ]
+    },
+    {
+      "conversation": "历史会话005",
+      "messages": [
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "",
+          "text": "脱敏消息编号0001，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员002",
+          "text": "脱敏消息编号0002，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "",
+          "text": "脱敏消息编号0003，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员002",
+          "text": "脱敏消息编号0004，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "",
+          "text": "脱敏消息编号0005，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员002",
+          "text": "脱敏消息编号0006，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "",
+          "text": "脱敏消息编号0007，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员002",
+          "text": "脱敏消息编号0008，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员002",
+          "text": "脱敏消息编号0009，保留顺序与重复关系"
+        }
+      ]
+    },
+    {
+      "conversation": "历史会话006",
+      "messages": [
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员001",
+          "text": "脱敏消息编号0001，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "",
+          "text": "脱敏消息编号0002，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员003",
+          "text": "脱敏消息编号0003，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员004",
+          "text": "脱敏消息编号0004，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员005",
+          "text": "脱敏消息编号0005，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": true,
+          "sender": "成员004",
+          "text": "脱敏消息编号0006，保留顺序与重复关系"
+        }
+      ]
+    },
+    {
+      "conversation": "历史会话007",
+      "messages": [
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员001",
+          "text": "脱敏消息编号0001，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员001",
+          "text": "脱敏消息编号0002，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员001",
+          "text": "脱敏消息编号0003，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员002",
+          "text": "脱敏消息编号0002，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员003",
+          "text": "脱敏消息编号0004，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员001",
+          "text": "脱敏消息编号0005，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员003",
+          "text": "脱敏消息编号0006，保留顺序与重复关系"
+        },
+        {
+          "certain": true,
+          "direct_mention": false,
+          "quote": "",
+          "self": false,
+          "sender": "成员003",
+          "text": "脱敏消息编号0007，保留顺序与重复关系"
+        }
+      ]
+    }
+  ]
+}
