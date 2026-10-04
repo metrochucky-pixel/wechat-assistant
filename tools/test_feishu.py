@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-"""测试飞书告警通道(走「飞书机器人」应用私聊机主)+ 补推历史积压的「需人工」消息。
+"""测试飞书告警通道(走「通知机器人」应用私聊机主)+ 补推历史积压的「需人工」消息。
 
 用法:
     python3 ~/wechatbot/tools/test_feishu.py           # 只发一条测试消息
     python3 ~/wechatbot/tools/test_feishu.py --backlog # 顺便把 decisions.jsonl 里
                                                        # 历史 flag_需人工 汇总推一条
 
-前提:~/.config/wechatbot.env 里有(从 VPS /opt/飞书-feishu/飞书-feishu.env 拿):
+前提:~/.config/wechatbot.env 里有(从 VPS /opt/whoop-feishu/whoop-feishu.env 拿):
     FEISHU_APP_ID=cli_...
     FEISHU_APP_SECRET=...
-    FEISHU_TO_OPEN_ID=ou_...      # 可选,默认用 机主自己的 open_id
+    FEISHU_TO_OPEN_ID=ou_...      # 可选,默认用 WHOOP 那条在用的示例机主 open_id
 ⚠️ 不打印 app_secret。
 """
 import json
